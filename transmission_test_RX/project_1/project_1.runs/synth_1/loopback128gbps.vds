@@ -1,0 +1,906 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 28 11:20:30 2018
+# Process ID: 21096
+# Current directory: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1
+# Command line: vivado -log loopback128gbps.vds -mode batch -messageDb vivado.pb -notrace -source loopback128gbps.tcl
+# Log file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/loopback128gbps.vds
+# Journal file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source loopback128gbps.tcl -notrace
+Command: synth_design -top loopback128gbps -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1223] The version limit for your license is '2018.10' and will expire in -28 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25717 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:01:27 . Memory (MB): peak = 1195.559 ; gain = 220.344 ; free physical = 4570 ; free virtual = 17912
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'loopback128gbps' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:60]
+	Parameter g_NUM_LANES bound to: 4 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFrsta' to cell 'OBUF' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:308]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFrstb' to cell 'OBUF' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:314]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'IDELAYCTRL_inst' to cell 'IDELAYCTRL' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:340]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'Map0IBUFDSclk' to cell 'IBUFDS' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:350]
+INFO: [Synth 8-3491] module 'clk_wiz_3' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/clk_wiz_3_stub.vhdl:5' bound to instance 'firstclk' of component 'clk_wiz_3' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:357]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_3' [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/clk_wiz_3_stub.vhdl:15]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'Map0OBUFDSclk' to cell 'OBUFDS' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:369]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF0' to cell 'OBUF' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:438]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF1' to cell 'OBUF' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:444]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF2' to cell 'OBUF' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:450]
+INFO: [Synth 8-3491] module 'clk_gen' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/clk_gen_stub.vhdl:5' bound to instance 'Map0clk' of component 'clk_gen' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:458]
+INFO: [Synth 8-638] synthesizing module 'clk_gen' [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/clk_gen_stub.vhdl:21]
+WARNING: [Synth 8-614] signal 'clk_out1s' is read in the process but is not in the sensitivity list [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:482]
+WARNING: [Synth 8-614] signal 'clk_out1s' is read in the process but is not in the sensitivity list [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:490]
+WARNING: [Synth 8-614] signal 'clk_out1s' is read in the process but is not in the sensitivity list [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:498]
+INFO: [Synth 8-3491] module 'ila_3' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_3_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_3' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:516]
+INFO: [Synth 8-638] synthesizing module 'ila_3' [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_3_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:534]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'aurora_rx_lane' declared at '/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:18' bound to instance 'Map3' of component 'aurora_rx_lane' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:562]
+INFO: [Synth 8-638] synthesizing module 'aurora_rx_lane' [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:40]
+	Parameter S bound to: 8 - type: integer 
+	Parameter D bound to: 1 - type: integer 
+	Parameter CLKIN_PERIOD bound to: 1.562500 - type: float 
+	Parameter REF_FREQ bound to: 300.000000 - type: float 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter DATA_FORMAT bound to: PER_CLOCK - type: string 
+INFO: [Synth 8-3491] module 'serdes_1_to_468_idelay_ddr' declared at '/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:65' bound to instance 'serdes_cmp' of component 'serdes_1_to_468_idelay_ddr' [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'serdes_1_to_468_idelay_ddr' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:96]
+	Parameter S bound to: 8 - type: integer 
+	Parameter D bound to: 1 - type: integer 
+	Parameter CLKIN_PERIOD bound to: 1.562500 - type: float 
+	Parameter REF_FREQ bound to: 300.000000 - type: float 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter DATA_FORMAT bound to: PER_CLOCK - type: string 
+	Parameter S bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'delay_controller_wrap' declared at '/home/dsmith/Desktop/transmission_test_split/files/delay_controller_wrap.vhd:63' bound to instance 'dc_inst' of component 'delay_controller_wrap' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:322]
+INFO: [Synth 8-638] synthesizing module 'delay_controller_wrap' [/home/dsmith/Desktop/transmission_test_split/files/delay_controller_wrap.vhd:84]
+	Parameter S bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_controller_wrap' (1#1) [/home/dsmith/Desktop/transmission_test_split/files/delay_controller_wrap.vhd:84]
+	Parameter DIFF_TERM bound to: 1 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: 0 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'data_in' to cell 'IBUFDS_DIFF_OUT' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:360]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 16 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 300.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'idelay_m' to cell 'IDELAYE2' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:372]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 2 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'iserdes_m' to cell 'ISERDESE2' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:392]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 16 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 300.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'idelay_s' to cell 'IDELAYE2' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:429]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 2 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'iserdes_s' to cell 'ISERDESE2' [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:449]
+INFO: [Synth 8-256] done synthesizing module 'serdes_1_to_468_idelay_ddr' (2#1) [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:96]
+INFO: [Synth 8-3491] module 'gearbox32to66' declared at '/home/dsmith/Desktop/transmission_test_split/files/gearbox32to66.vhd:13' bound to instance 'gearbox32to66_cmp' of component 'gearbox32to66' [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:381]
+INFO: [Synth 8-638] synthesizing module 'gearbox32to66' [/home/dsmith/Desktop/transmission_test_split/files/gearbox32to66.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'gearbox32to66' (3#1) [/home/dsmith/Desktop/transmission_test_split/files/gearbox32to66.vhd:28]
+INFO: [Synth 8-3491] module 'descrambler' declared at '/home/dsmith/Desktop/transmission_test_split/files/descrambler.v:5' bound to instance 'descrambler_cmp' of component 'descrambler' [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:435]
+INFO: [Synth 8-638] synthesizing module 'descrambler' [/home/dsmith/Desktop/transmission_test_split/files/descrambler.v:5]
+	Parameter RX_DATA_WIDTH bound to: 64 - type: integer 
+WARNING: [Synth 8-3936] Found unconnected internal register 'poly_reg' and it is trimmed from '122' to '58' bits. [/home/dsmith/Desktop/transmission_test_split/files/descrambler.v:49]
+INFO: [Synth 8-256] done synthesizing module 'descrambler' (4#1) [/home/dsmith/Desktop/transmission_test_split/files/descrambler.v:5]
+INFO: [Synth 8-3491] module 'ila_1' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_1_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_1' [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:486]
+INFO: [Synth 8-638] synthesizing module 'ila_1' [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_1_stub.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'aurora_rx_lane' (5#1) [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:40]
+INFO: [Synth 8-3491] module 'comparator' declared at '/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:24' bound to instance 'Map4' of component 'comparator' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:580]
+INFO: [Synth 8-638] synthesizing module 'comparator' [/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (6#1) [/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:37]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:534]
+INFO: [Synth 8-3491] module 'aurora_rx_lane' declared at '/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:18' bound to instance 'Map3' of component 'aurora_rx_lane' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:562]
+INFO: [Synth 8-3491] module 'comparator' declared at '/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:24' bound to instance 'Map4' of component 'comparator' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:580]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:534]
+INFO: [Synth 8-3491] module 'aurora_rx_lane' declared at '/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:18' bound to instance 'Map3' of component 'aurora_rx_lane' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:562]
+INFO: [Synth 8-3491] module 'comparator' declared at '/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:24' bound to instance 'Map4' of component 'comparator' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:580]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:534]
+INFO: [Synth 8-3491] module 'aurora_rx_lane' declared at '/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:18' bound to instance 'Map3' of component 'aurora_rx_lane' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:562]
+INFO: [Synth 8-3491] module 'comparator' declared at '/home/dsmith/Desktop/transmission_test_split/files/comparator.vhd:24' bound to instance 'Map4' of component 'comparator' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:580]
+WARNING: [Synth 8-3848] Net locked_s_1 in module/entity loopback128gbps does not have driver. [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:219]
+WARNING: [Synth 8-3848] Net OFB in module/entity loopback128gbps does not have driver. [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:266]
+INFO: [Synth 8-256] done synthesizing module 'loopback128gbps' (7#1) [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:60]
+WARNING: [Synth 8-3917] design loopback128gbps has port led0_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led1_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led2_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led3_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led4_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led5_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led6_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led7_o driven by constant 0
+WARNING: [Synth 8-3331] design aurora_rx_lane has unconnected port OFB_i
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:01:29 . Memory (MB): peak = 1242.004 ; gain = 266.789 ; free physical = 4523 ; free virtual = 17866
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:01:29 . Memory (MB): peak = 1242.004 ; gain = 266.789 ; free physical = 4522 ; free virtual = 17865
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_gen' instantiated as 'Map0clk' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:458]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_3' instantiated as 'firstclk' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:357]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'ila_0' instantiated as 'lane_loop[0].MapILA'. 4 instances of this cell are unresolved black boxes. [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:534]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'ila_1' instantiated as 'lane_loop[0].Map3/MapILA'. 4 instances of this cell are unresolved black boxes. [/home/dsmith/Desktop/transmission_test_split/files/aurora_rx_lane.vhd:486]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_3' instantiated as 'MapILA' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:516]
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp/clk_gen_in_context.xdc] for cell 'Map0clk'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp/clk_gen_in_context.xdc] for cell 'Map0clk'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[0].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[0].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[1].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[1].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[2].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[2].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[3].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[3].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[0].Map3/MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[0].Map3/MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[1].Map3/MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[1].Map3/MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[2].Map3/MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[2].Map3/MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[3].Map3/MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_4/ila_1_in_context.xdc] for cell 'lane_loop[3].Map3/MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_6/ila_3_in_context.xdc] for cell 'MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_6/ila_3_in_context.xdc] for cell 'MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_7/clk_wiz_3_in_context.xdc] for cell 'firstclk'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/.Xil/Vivado-21096-dhcp196-189.ece.uw.edu/dcp_7/clk_wiz_3_in_context.xdc] for cell 'firstclk'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/loopback128gbps_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/loopback128gbps_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 4 instances
+  OBUFDS => OBUFDS: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1595.547 ; gain = 0.004 ; free physical = 4543 ; free virtual = 17886
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:02:22 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4460 ; free virtual = 17803
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:02:22 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4460 ; free virtual = 17803
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:02:22 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4416 ; free virtual = 17759
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "data66_valid_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/dsmith/Desktop/transmission_test_split/files/delay_controller_wrap.vhd:284]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/dsmith/Desktop/transmission_test_split/files/delay_controller_wrap.vhd:341]
+INFO: [Synth 8-5544] ROM "m_delay_val_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_delay_val_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "s_delay_val_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "data_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_delay_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_delay_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_run" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "eye_run" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_delay_val_eye" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "m_delay_val_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_delay_val_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "s_delay_val_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "data_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_delay_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_delay_mux" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_run" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "eye_run" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_delay_val_eye" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "msxor_cti" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "msxor_ctd" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "msxor_ctix" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "msxor_ctdx" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "action" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "match" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "match" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/dsmith/Desktop/transmission_test_split/files/serdes_1_to_468_idelay_ddr.vhd:271]
+INFO: [Synth 8-5544] ROM "serdes_slip" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "scrambled_data_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "gearbox_slip" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "sync_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "serdes_data32_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'comparator'
+INFO: [Synth 8-5544] ROM "future_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "future_state" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "future_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                            00001 |                              000
+                    save |                            00010 |                              010
+                finished |                            00100 |                              100
+                   ready |                            01000 |                              001
+                  iSTATE |                            10000 |                              011
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'comparator'
+WARNING: [Synth 8-327] inferring latch for variable 'check_reg' [/home/dsmith/Desktop/transmission_test_split/files/loopback128gbps.vhd:383]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:02:24 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4396 ; free virtual = 17739
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 18    
+	   2 Input      6 Bit       Adders := 12    
+	   2 Input      5 Bit       Adders := 24    
+	   3 Input      5 Bit       Adders := 8     
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      3 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 5     
++---XORs : 
+	   3 Input      1 Bit         XORs := 256   
++---Registers : 
+	              128 Bit    Registers := 4     
+	               66 Bit    Registers := 8     
+	               64 Bit    Registers := 12    
+	               58 Bit    Registers := 4     
+	               33 Bit    Registers := 4     
+	               32 Bit    Registers := 20    
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 45    
+	                6 Bit    Registers := 12    
+	                5 Bit    Registers := 28    
+	                4 Bit    Registers := 8     
+	                2 Bit    Registers := 33    
+	                1 Bit    Registers := 108   
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 12    
+	   2 Input     32 Bit        Muxes := 12    
+	  32 Input     32 Bit        Muxes := 4     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 26    
+	   3 Input      8 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 56    
+	   3 Input      5 Bit        Muxes := 4     
+	  22 Input      5 Bit        Muxes := 4     
+	   9 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 12    
+	  12 Input      2 Bit        Muxes := 16    
+	   3 Input      2 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 111   
+	   6 Input      1 Bit        Muxes := 32    
+	   5 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module loopback128gbps 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module gearbox32to66 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               66 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module descrambler 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 64    
++---Registers : 
+	               64 Bit    Registers := 1     
+	               58 Bit    Registers := 1     
+Module delay_controller_wrap 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 4     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 7     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     32 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 13    
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	  12 Input      2 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 1     
+Module serdes_1_to_468_idelay_ddr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  22 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module aurora_rx_lane 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               66 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module comparator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 3     
+	   9 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:02:24 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4398 ; free virtual = 17741
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "sync_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scrambled_data_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sync_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scrambled_data_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sync_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scrambled_data_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sync_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scrambled_data_valid" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design loopback128gbps has port led0_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led1_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led2_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led3_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led4_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led5_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led6_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led7_o driven by constant 0
+WARNING: [Synth 8-3331] design aurora_rx_lane has unconnected port OFB_i
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:02:26 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4385 ; free virtual = 17731
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:23 ; elapsed = 00:02:26 . Memory (MB): peak = 1595.547 ; gain = 620.332 ; free physical = 4385 ; free virtual = 17731
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[7]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[6]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[6]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[5]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[5]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[4]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[3]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[3]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[2]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[0]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataouta_reg[1]' (FD) to 'aurora_rx_lane:/xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/rx_stat_o_reg[2]' (FDC) to 'aurora_rx_lane:/rx_stat_o_reg[3]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/rx_stat_o_reg[3]' (FDC) to 'aurora_rx_lane:/rx_stat_o_reg[4]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/rx_stat_o_reg[4]' (FDC) to 'aurora_rx_lane:/rx_stat_o_reg[5]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/rx_stat_o_reg[5]' (FDC) to 'aurora_rx_lane:/rx_stat_o_reg[6]'
+INFO: [Synth 8-3886] merging instance 'aurora_rx_lane:/rx_stat_o_reg[6]' (FDC) to 'aurora_rx_lane:/rx_stat_o_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aurora_rx_lane:/\rx_stat_o_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_min_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/s_ovflw_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[7]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[6]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataouta_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutb_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutb_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctix_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctix_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_cti_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_cti_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctdx_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctdx_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctd_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/msxor_ctd_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/su_locked_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/c_sweep_delay_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/c_sweep_delay_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/c_sweep_delay_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/c_sweep_delay_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/c_sweep_delay_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/initial_delay_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/initial_delay_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/initial_delay_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/initial_delay_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/initial_delay_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/action_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/action_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/inc_run_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[7]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[6]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_hold_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pdcount_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/pd_max_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/dec_run_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/data_mux_reg) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/m_delay_mux_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/m_delay_mux_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/s_delay_mux_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/s_delay_mux_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[7]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[6]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/sdataoutc_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[7]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[6]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[3]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[2]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[1]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/mdataoutc_reg[0]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[31]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[30]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[29]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[28]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[27]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[26]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[25]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[24]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[23]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[22]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[21]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[20]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[19]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[18]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[17]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[16]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[15]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[14]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[13]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[12]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[11]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[10]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[9]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[8]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[7]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[6]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[5]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[4]) is unused and will be removed from module aurora_rx_lane.
+WARNING: [Synth 8-3332] Sequential element (xapp1017_serdes.serdes_cmp/loop3[0].dc_inst/shifter_reg[3]) is unused and will be removed from module aurora_rx_lane.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'i_0/counting_reg[6]' (FDC) to 'i_0/counting_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\counting_reg[7] )
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:02:30 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4368 ; free virtual = 17715
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:02:30 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4368 ; free virtual = 17715
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk200_i' to pin 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_o' to pin 'Map0clk/bbstub_clk_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out1' to pin 'Map0clk/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out2' to pin 'Map0clk/bbstub_clk_out2/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out4' to pin 'Map0clk/bbstub_clk_out4/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out5' to pin 'Map0clk/bbstub_clk_out5/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clkhigh_o' to pin 'Map0clk/bbstub_clkhigh_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clkidelay_o' to pin 'Map0clk/bbstub_clkidelay_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'firstclk/clk_in1' to pin 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'firstclk/clk_out1' to pin 'firstclk/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'firstclk/clk_in1' to 'Map0OBUFDSclk/I'
+INFO: [Synth 8-5820] Moved 10 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:02:38 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4337 ; free virtual = 17684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:02:40 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4323 ; free virtual = 17670
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:02:42 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:02:42 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:02:42 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_3     |         1|
+|2     |clk_gen       |         1|
+|3     |ila_3         |         1|
+|4     |ila_0         |         4|
+|5     |ila_1         |         4|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |clk_gen_bbox    |     1|
+|2     |clk_wiz_3_bbox  |     1|
+|3     |ila_0_bbox      |     1|
+|4     |ila_0_bbox_0    |     1|
+|5     |ila_0_bbox_1    |     1|
+|6     |ila_0_bbox_2    |     1|
+|7     |ila_1_bbox      |     1|
+|8     |ila_1_bbox__4   |     1|
+|9     |ila_1_bbox__5   |     1|
+|10    |ila_1_bbox__6   |     1|
+|11    |ila_3_bbox      |     1|
+|12    |BUFG            |     1|
+|13    |CARRY4          |   112|
+|14    |IDELAYCTRL      |     1|
+|15    |IDELAYE2        |     8|
+|16    |ISERDESE2       |     8|
+|17    |LUT1            |    24|
+|18    |LUT2            |    60|
+|19    |LUT3            |  1201|
+|20    |LUT4            |   159|
+|21    |LUT5            |   232|
+|22    |LUT6            |  1057|
+|23    |FDCE            |  2051|
+|24    |FDPE            |    28|
+|25    |FDRE            |   383|
+|26    |FDSE            |   232|
+|27    |LD              |    24|
+|28    |IBUF            |     3|
+|29    |IBUFDS          |     1|
+|30    |IBUFDS_DIFF_OUT |     4|
+|31    |OBUF            |    13|
+|32    |OBUFDS          |     1|
++------+----------------+------+
+
+Report Instance Areas: 
++------+---------------------------------+-----------------------------+------+
+|      |Instance                         |Module                       |Cells |
++------+---------------------------------+-----------------------------+------+
+|1     |top                              |                             |  5613|
+|2     |  \lane_loop[0].Map3             |aurora_rx_lane__4            |  1084|
+|3     |    gearbox32to66_cmp            |gearbox32to66__4             |   538|
+|4     |    descrambler_cmp              |descrambler__4               |   186|
+|5     |    \xapp1017_serdes.serdes_cmp  |serdes_1_to_468_idelay_ddr_4 |    81|
+|6     |      \loop3[0].dc_inst          |delay_controller_wrap_5      |    60|
+|7     |  \lane_loop[0].Map4             |comparator__1                |   294|
+|8     |  \lane_loop[1].Map3             |aurora_rx_lane__5            |  1084|
+|9     |    gearbox32to66_cmp            |gearbox32to66__5             |   538|
+|10    |    descrambler_cmp              |descrambler__5               |   186|
+|11    |    \xapp1017_serdes.serdes_cmp  |serdes_1_to_468_idelay_ddr_2 |    81|
+|12    |      \loop3[0].dc_inst          |delay_controller_wrap_3      |    60|
+|13    |  \lane_loop[1].Map4             |comparator__2                |   294|
+|14    |  \lane_loop[2].Map3             |aurora_rx_lane__6            |  1084|
+|15    |    gearbox32to66_cmp            |gearbox32to66__6             |   538|
+|16    |    descrambler_cmp              |descrambler__6               |   186|
+|17    |    \xapp1017_serdes.serdes_cmp  |serdes_1_to_468_idelay_ddr_0 |    81|
+|18    |      \loop3[0].dc_inst          |delay_controller_wrap_1      |    60|
+|19    |  \lane_loop[2].Map4             |comparator__3                |   294|
+|20    |  \lane_loop[3].Map3             |aurora_rx_lane               |  1084|
+|21    |    gearbox32to66_cmp            |gearbox32to66                |   538|
+|22    |    descrambler_cmp              |descrambler                  |   186|
+|23    |    \xapp1017_serdes.serdes_cmp  |serdes_1_to_468_idelay_ddr   |    81|
+|24    |      \loop3[0].dc_inst          |delay_controller_wrap        |    60|
+|25    |  \lane_loop[3].Map4             |comparator                   |   294|
++------+---------------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4313 ; free virtual = 17660
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 251 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1595.551 ; gain = 111.445 ; free physical = 4313 ; free virtual = 17659
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 620.336 ; free physical = 4315 ; free virtual = 17661
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 161 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 8 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 29 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 4 instances
+  LD => LDCE: 24 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+152 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1595.551 ; gain = 541.777 ; free physical = 4311 ; free virtual = 17658
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1627.562 ; gain = 0.000 ; free physical = 4311 ; free virtual = 17658
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 28 11:23:23 2018...

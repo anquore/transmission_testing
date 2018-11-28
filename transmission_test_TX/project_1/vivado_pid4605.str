@@ -1,0 +1,148 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 4605
+
+Current time: 	10/22/18 9:01:20 AM PDT
+Time zone: 	Pacific Standard Time (America/Vancouver)
+
+OS: CentOS Linux release 7.5.1804 (Core) 
+Version: 3.10.0-862.3.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	dsmith
+User home directory: /home/dsmith
+User working directory: /home/dsmith/Desktop/transmission_test/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/dsmith/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/dsmith/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,852 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 36 MB (+35630kb) [00:00:06]
+// [Engine Memory]: 4,852 MB (+4936727kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,852 MB. GUI used memory: 22 MB. Current time: 10/22/18 9:01:22 AM PDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/dsmith/Desktop/transmission_test/project_1/project_1.xpr");
+// Opening Vivado Project: /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+26608kb) [00:00:24]
+// [GUI Memory]: 72 MB (+5345kb) [00:00:24]
+// [GUI Memory]: 77 MB (+1694kb) [00:00:24]
+// [Engine Memory]: 5,109 MB (+14441kb) [00:00:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,123 MB. GUI used memory: 54 MB. Current time: 10/22/18 9:01:40 AM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/dsmith/Desktop/transmission_test/project_1; part: xc7k325tffg900-2
+// 'i' command handler elapsed time: 14 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 6087.332 ; gain = 256.680 ; free physical = 9236 ; free virtual = 20557 
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 132 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,138 MB. GUI used memory: 54 MB. Current time: 10/22/18 9:03:57 AM PDT
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), Map0clk - clk_gen (clk_gen.xci)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), Map0clk - clk_gen (clk_gen.xci)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,175 MB. GUI used memory: 55 MB. Current time: 10/22/18 9:04:37 AM PDT
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// [GUI Memory]: 83 MB (+1891kb) [00:03:28]
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cR:g (F:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cR:g (F:JPanel, p:g)
+// [GUI Memory]: 87 MB (+413kb) [00:03:52]
+// Elapsed time: 19 seconds
+selectCheckBox((HResource) null, "clk_out6", true); // h:JCheckBox (bu:G, p:g): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "clk_out7", true); // h:JCheckBox (bu:G, p:g): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 25 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "250"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT2 REQUESTED OUT FREQ", "160"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 92 MB (+511kb) [00:04:26]
+setText("CLKOUT3 REQUESTED OUT FREQ", "80"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,259 MB. GUI used memory: 71 MB. Current time: 10/22/18 9:05:43 AM PDT
+setText("CLKOUT4 REQUESTED OUT FREQ", "39"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT5 REQUESTED OUT FREQ", "39"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT6 REQUESTED OUT FREQ", "320"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT7 REQUESTED OUT FREQ", "300"); // O:ao (cS:N)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cR:g (F:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 4); // cR:g (F:JPanel, p:g)
+// [GUI Memory]: 103 MB (+6610kb) [00:04:47]
+// Elapsed time: 21 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cR:g (F:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cR:g (F:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cR:g (F:JPanel, p:g)
+// Elapsed time: 14 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cR:g (F:JPanel, p:g)
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 109 MB (+813kb) [00:05:58]
+// [GUI Memory]: 115 MB (+71kb) [00:18:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,263 MB. GUI used memory: 73 MB. Current time: 10/22/18 9:35:43 AM PDT
+// [GUI Memory]: 121 MB (+141kb) [00:57:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,263 MB. GUI used memory: 68 MB. Current time: 10/22/18 10:05:43 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,263 MB. GUI used memory: 67 MB. Current time: 10/22/18 10:35:43 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,263 MB. GUI used memory: 68 MB. Current time: 10/22/18 11:05:43 AM PDT

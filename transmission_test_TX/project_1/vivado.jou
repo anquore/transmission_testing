@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Nov 27 09:13:29 2018
+# Process ID: 4515
+# Current directory: /home/dsmith/Desktop/transmission_test/project_1
+# Command line: vivado
+# Log file: /home/dsmith/Desktop/transmission_test/project_1/vivado.log
+# Journal file: /home/dsmith/Desktop/transmission_test/project_1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {112.5} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {112.5} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {112.5} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {450} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {450} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {450} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {4.500} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.MMCM_CLKOUT1_DIVIDE {8} CONFIG.MMCM_CLKOUT2_DIVIDE {8} CONFIG.MMCM_CLKOUT3_DIVIDE {2} CONFIG.MMCM_CLKOUT4_DIVIDE {2} CONFIG.MMCM_CLKOUT5_DIVIDE {2} CONFIG.MMCM_CLKOUT6_DIVIDE {3} CONFIG.CLKOUT1_JITTER {108.109} CONFIG.CLKOUT1_PHASE_ERROR {91.235} CONFIG.CLKOUT2_JITTER {108.109} CONFIG.CLKOUT2_PHASE_ERROR {91.235} CONFIG.CLKOUT3_JITTER {108.109} CONFIG.CLKOUT3_PHASE_ERROR {91.235} CONFIG.CLKOUT4_JITTER {82.539} CONFIG.CLKOUT4_PHASE_ERROR {91.235} CONFIG.CLKOUT5_JITTER {82.539} CONFIG.CLKOUT5_PHASE_ERROR {91.235} CONFIG.CLKOUT6_JITTER {82.539} CONFIG.CLKOUT6_PHASE_ERROR {91.235} CONFIG.CLKOUT7_JITTER {89.301} CONFIG.CLKOUT7_PHASE_ERROR {91.235}] [get_ips clk_gen]
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A02A82A}
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/000017164c8801}
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {480} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {480} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {480} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {24.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.MMCM_CLKOUT1_DIVIDE {8} CONFIG.MMCM_CLKOUT2_DIVIDE {8} CONFIG.MMCM_CLKOUT3_DIVIDE {2} CONFIG.MMCM_CLKOUT4_DIVIDE {2} CONFIG.MMCM_CLKOUT5_DIVIDE {2} CONFIG.MMCM_CLKOUT6_DIVIDE {3} CONFIG.CLKOUT1_JITTER {171.432} CONFIG.CLKOUT1_PHASE_ERROR {196.976} CONFIG.CLKOUT2_JITTER {171.432} CONFIG.CLKOUT2_PHASE_ERROR {196.976} CONFIG.CLKOUT3_JITTER {171.432} CONFIG.CLKOUT3_PHASE_ERROR {196.976} CONFIG.CLKOUT4_JITTER {134.672} CONFIG.CLKOUT4_PHASE_ERROR {196.976} CONFIG.CLKOUT5_JITTER {134.672} CONFIG.CLKOUT5_PHASE_ERROR {196.976} CONFIG.CLKOUT6_JITTER {134.672} CONFIG.CLKOUT6_PHASE_ERROR {196.976} CONFIG.CLKOUT7_JITTER {144.252} CONFIG.CLKOUT7_PHASE_ERROR {196.976}] [get_ips clk_gen]
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {100} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {100} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {100} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {400} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {400} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {400} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {6.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.MMCM_CLKOUT1_DIVIDE {12} CONFIG.MMCM_CLKOUT2_DIVIDE {12} CONFIG.MMCM_CLKOUT3_DIVIDE {3} CONFIG.MMCM_CLKOUT4_DIVIDE {3} CONFIG.MMCM_CLKOUT5_DIVIDE {3} CONFIG.MMCM_CLKOUT6_DIVIDE {4} CONFIG.CLKOUT1_JITTER {106.024} CONFIG.CLKOUT1_PHASE_ERROR {82.655} CONFIG.CLKOUT2_JITTER {106.024} CONFIG.CLKOUT2_PHASE_ERROR {82.655} CONFIG.CLKOUT3_JITTER {106.024} CONFIG.CLKOUT3_PHASE_ERROR {82.655} CONFIG.CLKOUT4_JITTER {81.254} CONFIG.CLKOUT4_PHASE_ERROR {82.655} CONFIG.CLKOUT5_JITTER {81.254} CONFIG.CLKOUT5_PHASE_ERROR {82.655} CONFIG.CLKOUT6_JITTER {81.254} CONFIG.CLKOUT6_PHASE_ERROR {82.655} CONFIG.CLKOUT7_JITTER {85.855} CONFIG.CLKOUT7_PHASE_ERROR {82.655}] [get_ips clk_gen]
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test/project_1/project_1.ip_user_files/ipstatic -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

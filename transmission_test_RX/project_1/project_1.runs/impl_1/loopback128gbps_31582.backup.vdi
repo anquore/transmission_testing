@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Nov  9 11:51:45 2018
+# Process ID: 31582
+# Current directory: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1
+# Command line: vivado -log loopback128gbps.vdi -applog -messageDb vivado.pb -mode batch -source loopback128gbps.tcl -notrace
+# Log file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.vdi
+# Journal file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source loopback128gbps.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.dcp' for cell 'Map0clk'
+INFO: [Project 1-454] Reading design checkpoint '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_3/ila_3.dcp' for cell 'MapILA'
+INFO: [Project 1-454] Reading design checkpoint '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.dcp' for cell 'firstclk'
+INFO: [Project 1-454] Reading design checkpoint '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'lane_loop[0].MapILA'
+INFO: [Project 1-454] Reading design checkpoint '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_1.dcp' for cell 'lane_loop[0].Map3/MapILA'
+INFO: [Netlist 29-17] Analyzing 1372 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Map0clk/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-35] Removing redundant IBUF, firstclk/inst/clkin1_ibufg, from the path connected to top-level port: clkp_i 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Map0clk/clk200_i' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/.Xil/Vivado-31582-dhcp196-189.ee.washington.edu/dcp_2/clk_gen.edf:417]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'firstclk/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/.Xil/Vivado-31582-dhcp196-189.ee.washington.edu/dcp_8/clk_wiz_3.edf:297]
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen_board.xdc] for cell 'Map0clk/inst'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen_board.xdc] for cell 'Map0clk/inst'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xdc] for cell 'Map0clk/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xdc:57]
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1999.965 ; gain = 501.656 ; free physical = 5714 ; free virtual = 18130
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xdc] for cell 'Map0clk/inst'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[0].MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[0].MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[1].MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[1].MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[2].MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[2].MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[3].MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[3].MapILA/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_gen_1'. The XDC file /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen_1/clk_gen_1_board.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_gen_1'. The XDC file /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen_1/clk_gen_1.xdc will not be read for any cell of this module.
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[3].Map3/MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[3].Map3/MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[2].Map3/MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[2].Map3/MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[1].Map3/MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[1].Map3/MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[0].Map3/MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_v6_1/constraints/ila.xdc] for cell 'lane_loop[0].Map3/MapILA/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_2'. The XDC file /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc will not be read for any cell of this module.
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc] for cell 'MapILA/U0'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc] for cell 'MapILA/U0'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_board.xdc] for cell 'firstclk/inst'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_board.xdc] for cell 'firstclk/inst'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc] for cell 'firstclk/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc:57]
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc] for cell 'firstclk/inst'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'g+et_ports' is not supported in the xdc constraint file. [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc:77]
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/ila_3/ila_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 849 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 840 instances
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 4 instances
+  OBUFDS => OBUFDS: 5 instances
+
+link_design: Time (s): cpu = 00:02:01 ; elapsed = 00:02:06 . Memory (MB): peak = 2008.965 ; gain = 955.184 ; free physical = 5723 ; free virtual = 18121
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'

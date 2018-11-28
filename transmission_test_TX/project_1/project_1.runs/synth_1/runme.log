@@ -1,0 +1,569 @@
+
+*** Running vivado
+    with args -log loopback128gbps.vds -m64 -mode batch -messageDb vivado.pb -notrace -source loopback128gbps.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source loopback128gbps.tcl -notrace
+Command: synth_design -top loopback128gbps -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1223] The version limit for your license is '2018.10' and will expire in -28 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24129 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:01:27 . Memory (MB): peak = 1195.559 ; gain = 220.344 ; free physical = 4684 ; free virtual = 18026
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'loopback128gbps' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:60]
+	Parameter g_NUM_LANES bound to: 4 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'Map0IBUFDSclk' to cell 'IBUFGDS' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:350]
+INFO: [Synth 8-3491] module 'clk_gen' declared at '/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/clk_gen_stub.vhdl:5' bound to instance 'Map0clk' of component 'clk_gen' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:458]
+INFO: [Synth 8-638] synthesizing module 'clk_gen' [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/clk_gen_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'generator' declared at '/home/dsmith/Desktop/transmission_test/files/generator.vhd:23' bound to instance 'Map1' of component 'generator' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:494]
+INFO: [Synth 8-638] synthesizing module 'generator' [/home/dsmith/Desktop/transmission_test/files/generator.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'generator' (1#1) [/home/dsmith/Desktop/transmission_test/files/generator.vhd:35]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:500]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'aurora_tx_lane128' declared at '/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:21' bound to instance 'Map2' of component 'aurora_tx_lane128' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:514]
+INFO: [Synth 8-638] synthesizing module 'aurora_tx_lane128' [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:40]
+INFO: [Synth 8-3491] module 'scrambler' declared at '/home/dsmith/Desktop/transmission_test/files/scrambler.v:5' bound to instance 'Map1' of component 'scrambler' [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'scrambler' [/home/dsmith/Desktop/transmission_test/files/scrambler.v:5]
+	Parameter TX_DATA_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'scrambler' (2#1) [/home/dsmith/Desktop/transmission_test/files/scrambler.v:5]
+	Parameter ratio_g bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'gearbox66to32' declared at '/home/dsmith/Desktop/transmission_test/files/gearbox66to32.vhd:22' bound to instance 'Map2gb66to32' of component 'gearbox66to32' [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'gearbox66to32' [/home/dsmith/Desktop/transmission_test/files/gearbox66to32.vhd:39]
+	Parameter ratio_g bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'gearbox66to32' (3#1) [/home/dsmith/Desktop/transmission_test/files/gearbox66to32.vhd:39]
+INFO: [Synth 8-3491] module 'serdes32to8' declared at '/home/dsmith/Desktop/transmission_test/files/serdes32to8.vhd:23' bound to instance 'Map3serdes32to8' of component 'serdes32to8' [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'serdes32to8' [/home/dsmith/Desktop/transmission_test/files/serdes32to8.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'serdes32to8' (4#1) [/home/dsmith/Desktop/transmission_test/files/serdes32to8.vhd:38]
+INFO: [Synth 8-3491] module 'serdes8to1' declared at '/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:26' bound to instance 'Map4serdes1to8' of component 'serdes8to1' [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'serdes8to1' [/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:43]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'oserdes_m' to cell 'OSERDESE2' [/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:79]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'io_data_out' to cell 'OBUFDS' [/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:160]
+WARNING: [Synth 8-3848] Net OFB_o in module/entity serdes8to1 does not have driver. [/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'serdes8to1' (5#1) [/home/dsmith/Desktop/transmission_test/files/serdes8to1.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'aurora_tx_lane128' (6#1) [/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:40]
+INFO: [Synth 8-3491] module 'generator' declared at '/home/dsmith/Desktop/transmission_test/files/generator.vhd:23' bound to instance 'Map1' of component 'generator' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:494]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:500]
+INFO: [Synth 8-3491] module 'aurora_tx_lane128' declared at '/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:21' bound to instance 'Map2' of component 'aurora_tx_lane128' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:514]
+INFO: [Synth 8-3491] module 'generator' declared at '/home/dsmith/Desktop/transmission_test/files/generator.vhd:23' bound to instance 'Map1' of component 'generator' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:494]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:500]
+INFO: [Synth 8-3491] module 'aurora_tx_lane128' declared at '/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:21' bound to instance 'Map2' of component 'aurora_tx_lane128' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:514]
+INFO: [Synth 8-3491] module 'generator' declared at '/home/dsmith/Desktop/transmission_test/files/generator.vhd:23' bound to instance 'Map1' of component 'generator' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:494]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/realtime/ila_0_stub.vhdl:5' bound to instance 'MapILA' of component 'ila_0' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:500]
+INFO: [Synth 8-3491] module 'aurora_tx_lane128' declared at '/home/dsmith/Desktop/transmission_test/files/aurora_tx_lane128.vhd:21' bound to instance 'Map2' of component 'aurora_tx_lane128' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:514]
+WARNING: [Synth 8-3848] Net locked_s_1 in module/entity loopback128gbps does not have driver. [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:221]
+INFO: [Synth 8-256] done synthesizing module 'loopback128gbps' (7#1) [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:60]
+WARNING: [Synth 8-3917] design loopback128gbps has port led0_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led1_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led2_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led3_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led4_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led5_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led6_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led7_o driven by constant 0
+WARNING: [Synth 8-3331] design serdes8to1 has unconnected port OFB_o
+WARNING: [Synth 8-3331] design loopback128gbps has unconnected port button
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:01:28 . Memory (MB): peak = 1237.004 ; gain = 261.789 ; free physical = 4641 ; free virtual = 17983
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:01:28 . Memory (MB): peak = 1237.004 ; gain = 261.789 ; free physical = 4641 ; free virtual = 17983
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_gen' instantiated as 'Map0clk' [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:458]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'ila_0' instantiated as 'lane_loop[0].MapILA'. 4 instances of this cell are unresolved black boxes. [/home/dsmith/Desktop/transmission_test/files/loopback128gbps.vhd:500]
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp/clk_gen_in_context.xdc] for cell 'Map0clk'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp/clk_gen_in_context.xdc] for cell 'Map0clk'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[0].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[0].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[1].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[1].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[2].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[2].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[3].MapILA'
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/.Xil/Vivado-20059-dhcp196-189.ece.uw.edu/dcp_2/ila_0_in_context.xdc] for cell 'lane_loop[3].MapILA'
+Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+Finished Parsing XDC File [/home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/constrs_1/new/testing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/constrs_1/new/testing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/loopback128gbps_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/loopback128gbps_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+  OBUFDS => OBUFDS: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1583.523 ; gain = 0.004 ; free physical = 4296 ; free virtual = 17639
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:02:20 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4298 ; free virtual = 17641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:02:20 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4298 ; free virtual = 17641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:02:20 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4298 ; free virtual = 17641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "data32_valid_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gearbox_cnt_s" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:02:20 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4285 ; free virtual = 17628
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 9     
++---XORs : 
+	   3 Input      1 Bit         XORs := 256   
++---Registers : 
+	              122 Bit    Registers := 4     
+	               96 Bit    Registers := 4     
+	               32 Bit    Registers := 4     
+	                6 Bit    Registers := 4     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	  16 Input     96 Bit        Muxes := 4     
+	   2 Input     96 Bit        Muxes := 12    
+	   4 Input      8 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module loopback128gbps 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module generator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module scrambler 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 64    
++---Registers : 
+	              122 Bit    Registers := 1     
+Module gearbox66to32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               96 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  16 Input     96 Bit        Muxes := 1     
+	   2 Input     96 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module serdes32to8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:02:20 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4285 ; free virtual = 17628
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design loopback128gbps has port led0_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led1_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led2_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led3_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led4_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led5_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led6_o driven by constant 0
+WARNING: [Synth 8-3917] design loopback128gbps has port led7_o driven by constant 0
+WARNING: [Synth 8-3331] design aurora_tx_lane128 has unconnected port OFB_o
+WARNING: [Synth 8-3331] design loopback128gbps has unconnected port button
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:02:22 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4284 ; free virtual = 17627
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:20 ; elapsed = 00:02:22 . Memory (MB): peak = 1583.523 ; gain = 608.309 ; free physical = 4284 ; free virtual = 17627
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[121]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[120]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[119]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[118]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[117]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[116]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[115]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[114]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[113]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[112]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[111]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[110]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[109]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[108]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[107]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[106]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[105]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[104]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[103]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[102]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[101]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[100]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[99]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[98]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[97]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[96]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[95]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[94]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[93]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[92]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[91]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[90]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[89]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[88]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[87]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[86]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[85]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[84]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[83]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[82]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[81]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[80]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[79]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[78]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[77]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[76]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[75]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[74]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[73]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[72]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[71]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[70]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[69]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[68]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[67]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[66]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[65]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[64]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[63]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[62]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[61]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[60]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[59]) is unused and will be removed from module scrambler.
+WARNING: [Synth 8-3332] Sequential element (scrambler_reg[58]) is unused and will be removed from module scrambler.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:02:27 . Memory (MB): peak = 1583.527 ; gain = 608.312 ; free physical = 4266 ; free virtual = 17609
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:02:27 . Memory (MB): peak = 1583.527 ; gain = 608.312 ; free physical = 4266 ; free virtual = 17609
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk200_i' to pin 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_o' to pin 'Map0clk/bbstub_clk_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out1' to pin 'Map0clk/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out2' to pin 'Map0clk/bbstub_clk_out2/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out4' to pin 'Map0clk/bbstub_clk_out4/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clk_out5' to pin 'Map0clk/bbstub_clk_out5/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clkhigh_o' to pin 'Map0clk/bbstub_clkhigh_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Map0clk/clkidelay_o' to pin 'Map0clk/bbstub_clkidelay_o/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'Map0clk/clk200_i' to 'Map0IBUFDSclk/O'
+INFO: [Synth 8-5820] Moved 8 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:02:35 . Memory (MB): peak = 1583.527 ; gain = 608.312 ; free physical = 4220 ; free virtual = 17563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:02:38 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4172 ; free virtual = 17515
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (count_reg[1]) is unused and will be removed from module loopback128gbps.
+WARNING: [Synth 8-3332] Sequential element (count_reg[0]) is unused and will be removed from module loopback128gbps.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:02:41 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4167 ; free virtual = 17510
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:02:41 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4167 ; free virtual = 17510
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:02:41 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4167 ; free virtual = 17510
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:02:41 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4124 ; free virtual = 17485
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:02:41 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4119 ; free virtual = 17480
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4098 ; free virtual = 17460
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4098 ; free virtual = 17460
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4083 ; free virtual = 17445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4083 ; free virtual = 17444
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_gen       |         1|
+|2     |ila_0         |         4|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |clk_gen_bbox |     1|
+|2     |ila_0_bbox   |     1|
+|3     |ila_0_bbox_0 |     1|
+|4     |ila_0_bbox_1 |     1|
+|5     |ila_0_bbox_2 |     1|
+|6     |CARRY4       |    96|
+|7     |LUT1         |   256|
+|8     |LUT2         |   304|
+|9     |LUT3         |   376|
+|10    |LUT4         |   336|
+|11    |LUT5         |   276|
+|12    |LUT6         |  1016|
+|13    |OSERDESE2    |     4|
+|14    |FDCE         |   800|
+|15    |FDPE         |     1|
+|16    |FDRE         |    16|
+|17    |FDSE         |   232|
+|18    |IBUF         |     1|
+|19    |IBUFGDS      |     1|
+|20    |OBUF         |     8|
+|21    |OBUFDS       |     4|
++------+-------------+------+
+
+Report Instance Areas: 
++------+----------------------+---------------------+------+
+|      |Instance              |Module               |Cells |
++------+----------------------+---------------------+------+
+|1     |top                   |                     |  3735|
+|2     |  \lane_loop[0].Map1  |generator__1         |   218|
+|3     |  \lane_loop[0].Map2  |aurora_tx_lane128__1 |   711|
+|4     |    Map1              |scrambler_8          |   265|
+|5     |    Map2gb66to32      |gearbox66to32_9      |   392|
+|6     |    Map3serdes32to8   |serdes32to8_10       |    52|
+|7     |    Map4serdes1to8    |serdes8to1_11        |     2|
+|8     |  \lane_loop[1].Map1  |generator__2         |   218|
+|9     |  \lane_loop[1].Map2  |aurora_tx_lane128__2 |   711|
+|10    |    Map1              |scrambler_4          |   265|
+|11    |    Map2gb66to32      |gearbox66to32_5      |   392|
+|12    |    Map3serdes32to8   |serdes32to8_6        |    52|
+|13    |    Map4serdes1to8    |serdes8to1_7         |     2|
+|14    |  \lane_loop[2].Map1  |generator__3         |   218|
+|15    |  \lane_loop[2].Map2  |aurora_tx_lane128__3 |   711|
+|16    |    Map1              |scrambler_0          |   265|
+|17    |    Map2gb66to32      |gearbox66to32_1      |   392|
+|18    |    Map3serdes32to8   |serdes32to8_2        |    52|
+|19    |    Map4serdes1to8    |serdes8to1_3         |     2|
+|20    |  \lane_loop[3].Map1  |generator            |   218|
+|21    |  \lane_loop[3].Map2  |aurora_tx_lane128    |   711|
+|22    |    Map1              |scrambler            |   265|
+|23    |    Map2gb66to32      |gearbox66to32        |   392|
+|24    |    Map3serdes32to8   |serdes32to8          |    52|
+|25    |    Map4serdes1to8    |serdes8to1           |     2|
++------+----------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.527 ; gain = 644.312 ; free physical = 4082 ; free virtual = 17443
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 76 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1619.527 ; gain = 142.445 ; free physical = 4080 ; free virtual = 17442
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.535 ; gain = 644.320 ; free physical = 4082 ; free virtual = 17444
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 102 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 90 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:02:42 . Memory (MB): peak = 1619.535 ; gain = 565.762 ; free physical = 4027 ; free virtual = 17389
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1651.547 ; gain = 0.000 ; free physical = 4012 ; free virtual = 17374
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 28 11:22:51 2018...

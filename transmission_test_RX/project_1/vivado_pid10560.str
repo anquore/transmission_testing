@@ -1,0 +1,141 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 10560
+
+Current time: 	9/5/18 12:35:18 PM PDT
+Time zone: 	Pacific Standard Time (America/Vancouver)
+
+OS: CentOS Linux release 7.5.1804 (Core) 
+Version: 3.10.0-862.3.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	dsmith
+User home directory: /home/dsmith
+User working directory: /home/dsmith/Desktop/transmission_test/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/dsmith/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/dsmith/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,847 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 34 MB (+33657kb) [00:00:06]
+// [Engine Memory]: 4,847 MB (+4931119kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,852 MB. GUI used memory: 21 MB. Current time: 9/5/18 12:35:20 PM PDT
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/dsmith/Desktop/transmission_test/project_1/project_1.xpr", 3); // q:v (JViewport:JComponent, cv:JFrame)
+// Opening Vivado Project: /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,975 MB. GUI used memory: 22 MB. Current time: 9/5/18 12:35:45 PM PDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+11861kb) [00:00:36]
+// [GUI Memory]: 68 MB (+18767kb) [00:00:37]
+// [GUI Memory]: 73 MB (+2148kb) [00:00:37]
+// [GUI Memory]: 77 MB (+252kb) [00:00:37]
+// [Engine Memory]: 5,090 MB (+168kb) [00:00:37]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 82 MB (+1306kb) [00:00:39]
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/dsmith/Desktop/transmission_test/project_1; part: xc7k325tffg900-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 6081.789 ; gain = 247.156 ; free physical = 7127 ; free virtual = 17910 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 116 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, testing.xdc]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, testing.xdc]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 87 MB (+937kb) [00:02:46]
+// [GUI Memory]: 93 MB (+1101kb) [00:02:52]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "loopback128gbps.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 7); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd)]", 6); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd)]", 6, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd)]", 6, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 99 MB (+1843kb) [00:03:07]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd)]", 6); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd), Map4serdes1to8 - serdes8to1 - Behavioral (serdes8to1.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd), Map4serdes1to8 - serdes8to1 - Behavioral (serdes8to1.vhd)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 5,148 MB. GUI used memory: 56 MB. Current time: 9/5/18 12:38:30 PM PDT
+selectCodeEditor("serdes8to1.vhd", 70, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Sep  5 12:39:16 2018] Launched synth_1... Run output will be captured here: /home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/runme.log [Wed Sep  5 12:39:16 2018] Launched impl_1... Run output will be captured here: /home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 157 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,182 MB. GUI used memory: 59 MB. Current time: 9/5/18 12:41:55 PM PDT
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 129 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)

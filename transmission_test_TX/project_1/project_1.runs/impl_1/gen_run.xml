@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1543432675">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="loopback128gbps.vdi"/>
+  <File Type="BG-DRC" Name="loopback128gbps.drc"/>
+  <File Type="BG-BGN" Name="loopback128gbps.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="loopback128gbps.sysdef"/>
+  <File Type="BITSTR-MMI" Name="loopback128gbps.mmi"/>
+  <File Type="BITSTR-BMM" Name="loopback128gbps_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="loopback128gbps.nky"/>
+  <File Type="BITSTR-RBT" Name="loopback128gbps.rbt"/>
+  <File Type="BITSTR-MSK" Name="loopback128gbps.msk"/>
+  <File Type="BG-BIN" Name="loopback128gbps.bin"/>
+  <File Type="BG-BIT" Name="loopback128gbps.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="loopback128gbps_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="loopback128gbps_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="loopback128gbps_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="loopback128gbps_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-CLK" Name="loopback128gbps_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="loopback128gbps_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="loopback128gbps_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="loopback128gbps_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="loopback128gbps_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="loopback128gbps_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="loopback128gbps_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="loopback128gbps_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="loopback128gbps_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="loopback128gbps_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="loopback128gbps_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="loopback128gbps_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="loopback128gbps_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="loopback128gbps_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="loopback128gbps_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="loopback128gbps_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="loopback128gbps_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="loopback128gbps_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="loopback128gbps_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="loopback128gbps_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="loopback128gbps_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="loopback128gbps_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="loopback128gbps_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="loopback128gbps_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="loopback128gbps_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="loopback128gbps_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="loopback128gbps_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="loopback128gbps_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="loopback128gbps_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="loopback128gbps_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="loopback128gbps_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="loopback128gbps_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="loopback128gbps_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="loopback128gbps_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="loopback128gbps.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="loopback128gbps_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="loopback128gbps_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="loopback128gbps_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="loopback128gbps_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="loopback128gbps_postroute_physopt.dcp"/>
+  <File Type="PA-TCL" Name="loopback128gbps.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../files/delay_controller_wrap.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/serdes_1_to_468_idelay_ddr.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/serdes8to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/serdes32to8.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/scrambler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/gearbox66to32.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/gearbox32to66.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/descrambler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/loopback128gbps2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/comparator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/aurora_tx_lane128.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/aurora_rx_lane.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../files/loopback128gbps.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="loopback128gbps"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/testing.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ila_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_gen"/>
+</GenRun>

@@ -1,0 +1,218 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 22908
+
+Current time: 	9/11/18 2:27:02 PM PDT
+Time zone: 	Pacific Standard Time (America/Vancouver)
+
+OS: CentOS Linux release 7.5.1804 (Core) 
+Version: 3.10.0-862.3.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	dsmith
+User home directory: /home/dsmith
+User working directory: /home/dsmith/Desktop/transmission_test/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/dsmith/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/dsmith/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,848 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 37 MB (+36148kb) [00:00:05]
+// [Engine Memory]: 4,848 MB (+4931529kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,853 MB. GUI used memory: 21 MB. Current time: 9/11/18 2:27:04 PM PDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/dsmith/Desktop/transmission_test/project_1/project_1.xpr");
+// Opening Vivado Project: /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+28070kb) [00:00:25]
+// [GUI Memory]: 75 MB (+6202kb) [00:00:26]
+// [GUI Memory]: 79 MB (+543kb) [00:00:26]
+// [GUI Memory]: 83 MB (+456kb) [00:00:26]
+// [Engine Memory]: 5,098 MB (+8524kb) [00:00:26]
+// [GUI Memory]: 88 MB (+504kb) [00:00:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,140 MB. GUI used memory: 54 MB. Current time: 9/11/18 2:27:24 PM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/dsmith/Desktop/transmission_test/project_1; part: xc7k325tffg900-2
+// 'i' command handler elapsed time: 10 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 6104.371 ; gain = 268.602 ; free physical = 5941 ; free virtual = 17495 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 148 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 7); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 7, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 12); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, testing.xdc]", 14, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, testing.xdc]", 14, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 75 seconds
+selectCodeEditor("testing.xdc", 179, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 59 seconds
+selectCodeEditor("testing.xdc", 1, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("testing.xdc", 184, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 184, 242, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 194, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("testing.xdc", 188, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 188, 408, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "testing.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 188, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 188, 335, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "testing.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 190, 427); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 190, 427, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "testing.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 194, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 192, 354, false, true, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key - Double Click
+selectCodeEditor("testing.xdc", 196, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 196, 354, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "testing.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 34, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("testing.xdc", 186, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 186, 408, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("testing.xdc", 198, 424); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 195, 423, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 34, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 74, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 41, 443); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 36, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 16, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 93 MB (+980kb) [00:08:18]
+// Elapsed time: 63 seconds
+selectCodeEditor("testing.xdc", 33, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 75 seconds
+selectCodeEditor("testing.xdc", 48, 453); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 204, 469); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 183, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("testing.xdc", 62, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 60, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("testing.xdc", 347, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 98 MB (+365kb) [00:11:35]
+// Elapsed time: 29 seconds
+selectCodeEditor("testing.xdc", 382, 460); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "testing.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 386, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "testing.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 12, 376); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 8, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 346, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 350, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("testing.xdc", 322, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("testing.xdc", 22, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 37, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 45, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("testing.xdc", 44, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 47, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("testing.xdc", 194, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 185, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 185, 318, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 197, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 197, 340, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 186, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 187, 387, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("testing.xdc", 188, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 188, 393, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 176, 443); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 176, 443, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 193, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 193, 441, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 191, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 192, 460, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 192, 508); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 192, 508, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("testing.xdc", 179, 520); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("testing.xdc", 179, 520, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 104 MB (+389kb) [00:15:44]
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Sep 11 14:42:50 2018] Launched synth_1... Run output will be captured here: /home/dsmith/Desktop/transmission_test/project_1/project_1.runs/synth_1/runme.log [Tue Sep 11 14:42:50 2018] Launched impl_1... Run output will be captured here: /home/dsmith/Desktop/transmission_test/project_1/project_1.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,151 MB. GUI used memory: 56 MB. Current time: 9/11/18 2:42:59 PM PDT
+// Elapsed time: 46 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,192 MB. GUI used memory: 66 MB. Current time: 9/11/18 2:43:39 PM PDT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 98 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Designutils 20-1280] Could not find module 'ila_2'. The XDC file /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc will not be read for any cell of this module.. ]", 2); // al:k (JViewport:JComponent, cv:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Designutils 20-1280] Could not find module 'ila_2'. The XDC file /home/dsmith/Desktop/transmission_test/project_1/project_1.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc will not be read for any cell of this module.. ]", 2); // al:k (JViewport:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 167 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)

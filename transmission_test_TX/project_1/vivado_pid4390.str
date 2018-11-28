@@ -1,0 +1,237 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 4390
+
+Current time: 	8/21/18 11:40:08 AM PDT
+Time zone: 	Pacific Standard Time (America/Vancouver)
+
+OS: CentOS Linux release 7.5.1804 (Core) 
+Version: 3.10.0-862.3.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	dsmith
+User home directory: /home/dsmith
+User working directory: /home/dsmith/Desktop/transmission_test/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/dsmith/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/dsmith/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	207 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,846 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 32 MB (+30917kb) [00:00:04]
+// [Engine Memory]: 4,846 MB (+4930394kb) [00:00:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,848 MB. GUI used memory: 21 MB. Current time: 8/21/18 11:40:10 AM PDT
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.xpr", 0); // q:v (JViewport:JComponent, cv:JFrame)
+// Opening Vivado Project: /home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,978 MB. GUI used memory: 22 MB. Current time: 8/21/18 11:40:35 AM PDT
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,151 MB (+65032kb) [00:00:42]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+16191kb) [00:00:47]
+// [GUI Memory]: 227 MB (+183813kb) [00:00:49]
+// [GUI Memory]: 240 MB (+1979kb) [00:00:52]
+// [Engine Memory]: 5,412 MB (+3711kb) [00:01:00]
+// [GUI Memory]: 256 MB (+3954kb) [00:01:03]
+// [Engine Memory]: 5,689 MB (+6959kb) [00:01:24]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,805 MB. GUI used memory: 190 MB. Current time: 8/21/18 11:41:35 AM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_YARR; location: /home/dsmith/Desktop/cern_work/project_1_YARR; part: xc7k325tffg900-2
+// Tcl Message: open_project: Time (s): cpu = 00:01:24 ; elapsed = 00:01:07 . Memory (MB): peak = 6767.188 ; gain = 938.238 ; free physical = 10578 ; free virtual = 20479 
+// Elapsed time: 67 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv)]", 3); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), cout_i - chip_output (chip_output.sv)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 37 seconds
+selectCodeEditor("chip_output.sv", 156, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("chip_output.sv", 156, 212, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("chip_output.sv", 191, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("chip_output.sv", 218, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("chip_output.sv", 217, 214, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "chip_output.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("chip_output.sv", 177, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "chip_output.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv), test1 - ila_output (ila_output.xci)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv), emulator - RD53_top (RD53_top.sv)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("RD53_top.sv", 200, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "RD53_top.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RD53_top.sv", 182, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "RD53_top.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv)]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theTop - on_chip_top (on_chip_top.sv)]", 3, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,821 MB. GUI used memory: 193 MB. Current time: 8/21/18 11:44:25 AM PDT
+selectCodeEditor("on_chip_top.sv", 161, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "on_chip_top.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("on_chip_top.sv", 405, 506); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "on_chip_top.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "on_chip_top.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 15 seconds
+selectCodeEditor("yarrToRD53A.sv", 151, 563); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "yarrToRD53A.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 30 seconds
+selectCodeEditor("yarrToRD53A.sv", 103, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("yarrToRD53A.sv", 59, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("yarrToRD53A.sv", 59, 303, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "yarrToRD53A.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("yarrToRD53A.sv", 140, 53); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "yarrToRD53A.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 5,841 MB. GUI used memory: 193 MB. Current time: 8/21/18 11:45:55 AM PDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theYarr - top_level - Behavioral (bram_yarr.vhd)]", 4); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theYarr - top_level - Behavioral (bram_yarr.vhd)]", 4, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, yarrToRD53Aemu (yarrToRD53A.sv), theYarr - top_level - Behavioral (bram_yarr.vhd)]", 4, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "yarrToRD53A.sv", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("yarrToRD53A.sv", 225, 57); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Aug 21 11:46:35 2018] Launched synth_1... Run output will be captured here: /home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.runs/synth_1/runme.log [Tue Aug 21 11:46:35 2018] Launched impl_1... Run output will be captured here: /home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 316 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 25); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 26); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xpressk7.xdc]", 30, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xpressk7.xdc]", 30, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 269 MB (+767kb) [00:11:53]
+// [GUI Memory]: 284 MB (+842kb) [00:16:36]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 564 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE, "Generate Memory Configuration File"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE
+// aQ:ak (cv:JFrame): Write Memory Configuration File: addNotify
+selectRadioButton(PAResourceTtoZ.WriteCfgMemFileDialog_MEMORY_PART, "Memory Part:"); // a:JRadioButton (JPanel:JComponent, aQ:ak)
+setText(PAResourceTtoZ.WriteCfgMemFileDialog_SPECIFY_CONFIGURATION_FILENAME, "mem"); // aq:ao (ap:JPanel, aQ:ak)
+selectButton(PAResourceTtoZ.WriteCfgMemFileDialog_PART_CHOOSER, (String) null); // r:a (J:z, aQ:ak)
+// aM:aj (cv:JFrame): Select Configuration Memory Part: addNotify
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "28f00ap30t-bpi-x16 ; 28f00ap30t ; Micron ;  ; p30 ; bpi ; 1024 ; x16", 5, "28f00ap30t-bpi-x16", 0); // g:v (JViewport:JComponent, aM:aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aM:aj)
+dismissDialog("Select Configuration Memory Part"); // aM:aj (cv:JFrame)
+selectCheckBox(PAResourceTtoZ.WriteCfgMemFileDialog_LOAD_BITSTREAM_FILES, "Load bitstream files", true); // h:JCheckBox (JPanel:JComponent, aQ:ak): TRUE
+selectButton(PAResourceTtoZ.WriteCfgMemFileDialog_SPECIFY_BITFILE_FILENAME, (String) null); // r:a (ap:JPanel, aQ:ak)
+// Elapsed time: 11 seconds
+setFileChooser("/home/dsmith/Desktop/cern_work/project_1_YARR/project_1_YARR.runs/impl_1/yarrToRD53Aemu.bit");
+selectCheckBox(PAResourceTtoZ.WriteCfgMemFileDialog_WRITE_CHECKSUM, "Write checksum", true); // h:JCheckBox (JPanel:JComponent, aQ:ak): TRUE
+selectButton(PAResourceTtoZ.WriteCfgMemFileDialog_SPECIFY_CONFIGURATION_FILENAME, (String) null); // r:a (ap:JPanel, aQ:ak)
+// Elapsed time: 23 seconds
+selectButton(RDIResource.HJFileChooserHelpers_REFRESH_FOLDER_VIEW_TO_REFLECT_EXTERNAL, (String) null); // a:JButton (JPanel:JComponent, JDialog:Dialog)
+setFileChooser("/home/dsmith/Desktop/cern_work/project_1_YARR/mem.mcs");

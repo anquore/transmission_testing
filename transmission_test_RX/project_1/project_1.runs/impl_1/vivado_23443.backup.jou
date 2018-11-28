@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Oct 18 11:49:54 2018
+# Process ID: 23443
+# Current directory: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1
+# Command line: vivado -log loopback128gbps.vdi -applog -messageDb vivado.pb -mode batch -source loopback128gbps.tcl -notrace
+# Log file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.vdi
+# Journal file: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source loopback128gbps.tcl -notrace

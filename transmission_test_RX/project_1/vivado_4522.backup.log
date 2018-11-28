@@ -1,0 +1,909 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 21 14:45:38 2018
+# Process ID: 4522
+# Current directory: /home/dsmith/Desktop/transmission_test_split/project_1
+# Command line: vivado
+# Log file: /home/dsmith/Desktop/transmission_test_split/project_1/vivado.log
+# Journal file: /home/dsmith/Desktop/transmission_test_split/project_1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/dsmith/Desktop/transmission_test_split/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 6102.211 ; gain = 267.715 ; free physical = 9592 ; free virtual = 20342
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 130c	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_10: 130c	-CLKOUT4 Register 1
+DADDR_11: 0006	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1145	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1145	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1145	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1145	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 93cf	-CLKOUT4 Register 1
+DADDR_11: 0007	-CLKOUT4 Register 2
+DADDR_10: 93cf	-CLKOUT4 Register 1
+DADDR_11: 0007	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1082	-CLKOUT6 Register 1
+DADDR_13: 0000	-CLKOUT6 Register 2
+DADDR_12: 1082	-CLKOUT6 Register 1
+DADDR_13: 0000	-CLKOUT6 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1145	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1145	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1145	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1145	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: d042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: d042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_08: 1145	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1082	-CLKOUT6 Register 1
+DADDR_13: 0000	-CLKOUT6 Register 2
+DADDR_12: 1082	-CLKOUT6 Register 1
+DADDR_13: 0000	-CLKOUT6 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 9041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 9041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {120} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {480} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {480} CONFIG.CLKOUT5_REQUESTED_PHASE {0} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {480} CONFIG.MMCM_DIVCLK_DIVIDE {11} CONFIG.MMCM_CLKFBOUT_MULT_F {42.250} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.MMCM_CLKOUT1_DIVIDE {8} CONFIG.MMCM_CLKOUT2_DIVIDE {8} CONFIG.MMCM_CLKOUT3_DIVIDE {2} CONFIG.MMCM_CLKOUT4_DIVIDE {2} CONFIG.MMCM_CLKOUT4_PHASE {0.000} CONFIG.MMCM_CLKOUT5_DIVIDE {2} CONFIG.MMCM_CLKOUT6_DIVIDE {3} CONFIG.CLKOUT1_JITTER {226.724} CONFIG.CLKOUT1_PHASE_ERROR {261.716} CONFIG.CLKOUT2_JITTER {226.724} CONFIG.CLKOUT2_PHASE_ERROR {261.716} CONFIG.CLKOUT3_JITTER {226.724} CONFIG.CLKOUT3_PHASE_ERROR {261.716} CONFIG.CLKOUT4_JITTER {183.811} CONFIG.CLKOUT4_PHASE_ERROR {261.716} CONFIG.CLKOUT5_JITTER {183.811} CONFIG.CLKOUT5_PHASE_ERROR {261.716} CONFIG.CLKOUT6_JITTER {183.811} CONFIG.CLKOUT6_PHASE_ERROR {261.716} CONFIG.CLKOUT7_JITTER {195.413} CONFIG.CLKOUT7_PHASE_ERROR {261.716}] [get_ips clk_gen]
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_gen'...
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+[Wed Nov 21 14:49:16 2018] Launched clk_gen_synth_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Nov 21 14:49:24 2018] Launched clk_gen_synth_1, synth_1...
+Run output will be captured here:
+clk_gen_synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/runme.log
+[Wed Nov 21 14:49:24 2018] Launched impl_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:54:00
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 6401.930 ; gain = 8.145 ; free physical = 5997 ; free virtual = 18513
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A02A82A
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7k325t_0 and the probes file /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file has 9 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file OR
+2. Goto device properties and associate the correct probes file with the programming file already programmed in the device.
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 6480.652 ; gain = 0.000 ; free physical = 6593 ; free virtual = 19106
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 9 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 6490.637 ; gain = 9.984 ; free physical = 6484 ; free virtual = 19004
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+WARNING: Simulation object tx32[0]__0 was not found in the design.
+WARNING: Simulation object tx8[0]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[0] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+WARNING: Simulation object tx32[1]__0 was not found in the design.
+WARNING: Simulation object tx8[1]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[1] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_6 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_7 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+WARNING: Simulation object tx32[2]__0 was not found in the design.
+WARNING: Simulation object tx8[2]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[2] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_8 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].Map3/MapILA"}]]
+WARNING: Simulation object reset_delayed was not found in the design.
+WARNING: Simulation object rx32[3]__0 was not found in the design.
+WARNING: Simulation object rx8[3]__0 was not found in the design.
+WARNING: Simulation object rx_valid_s_3 was not found in the design.
+WARNING: Simulation object rxdata66_s[3] was not found in the design.
+WARNING: Simulation object tx32[3]__0 was not found in the design.
+WARNING: Simulation object tx8[3]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[3] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_9 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+WARNING: Simulation object tx_data_s[3] was not found in the design.
+WARNING: Simulation object tx32[3]__0 was not found in the design.
+WARNING: Simulation object tx8[3]__0 was not found in the design.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:17:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:17:35
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:17:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:17:46
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:17:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:17:51
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:17:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:17:54
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_7' trigger was armed at 2018-Nov-26 09:17:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_7' triggered at 2018-Nov-26 09:17:58
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_9' trigger was armed at 2018-Nov-26 09:18:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_9' triggered at 2018-Nov-26 09:18:03
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:14
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:36
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:36
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:18:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:18:40
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:44
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:47
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:49
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:18:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:18:52
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:18:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:18:56
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 09:19:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 09:19:00
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:19:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:19:03
+set_property TRIGGER_COMPARE_VALUE neq66'h1_XXXX_XXXX_XXXX_XXXX [get_hw_probes {rxdata66_s[0]} -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 09:19:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 09:19:16
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.PRIM_IN_FREQ {200} CONFIG.CLKIN1_JITTER_PS {50.0} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {24.000} CONFIG.MMCM_CLKIN1_PERIOD {5.0} CONFIG.CLKOUT1_JITTER {171.432} CONFIG.CLKOUT1_PHASE_ERROR {196.976} CONFIG.CLKOUT2_JITTER {171.432} CONFIG.CLKOUT2_PHASE_ERROR {196.976} CONFIG.CLKOUT3_JITTER {171.432} CONFIG.CLKOUT3_PHASE_ERROR {196.976} CONFIG.CLKOUT4_JITTER {134.672} CONFIG.CLKOUT4_PHASE_ERROR {196.976} CONFIG.CLKOUT5_JITTER {134.672} CONFIG.CLKOUT5_PHASE_ERROR {196.976} CONFIG.CLKOUT6_JITTER {134.672} CONFIG.CLKOUT6_PHASE_ERROR {196.976} CONFIG.CLKOUT7_JITTER {144.252} CONFIG.CLKOUT7_PHASE_ERROR {196.976}] [get_ips clk_gen]
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1104	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1104	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 0000	-CLKOUT3 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1104	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_gen'...
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+[Mon Nov 26 09:21:15 2018] Launched clk_gen_synth_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Nov 26 09:23:07 2018] Launched clk_gen_synth_1, synth_1...
+Run output will be captured here:
+clk_gen_synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/runme.log
+[Mon Nov 26 09:23:07 2018] Launched impl_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 6537.738 ; gain = 0.000 ; free physical = 6320 ; free virtual = 18842
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 9 ILA core(s).
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 12:02:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 12:02:06
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 12:02:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 12:02:08
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 12:02:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 12:02:10
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 12:02:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 12:02:15
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 12:02:17
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 12:02:17
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2018-Nov-26 12:02:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2018-Nov-26 12:02:20
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 12:02:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 12:02:24
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 12:02:29
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 12:02:29
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_7' trigger was armed at 2018-Nov-26 12:02:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_7' triggered at 2018-Nov-26 12:02:34
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_7' trigger was armed at 2018-Nov-26 12:02:36
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_7' triggered at 2018-Nov-26 12:02:36
+set_property TRIGGER_COMPARE_VALUE neq66'h1_XXXX_XXXX_XXXX_XXXX [get_hw_probes {rxdata66_s[2]} -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_7' trigger was armed at 2018-Nov-26 12:02:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_7' triggered at 2018-Nov-26 12:02:43
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_7' trigger was armed at 2018-Nov-26 12:02:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_7' triggered at 2018-Nov-26 12:02:45
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A02A82A
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_0A: 1249	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1249	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_0A: 1249	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1249	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1249	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1249	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_09: 7800	-CLKOUT0 Register 1
+DADDR_08: 1208	-CLKOUT0 Register 2
+DADDR_07: 3800	-CLKOUT0 Register Shared with CLKOUT5
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1083	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 0000	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 0000	-CLKOUT5 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {80} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {80} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {80} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {320} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {320} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {320} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {24.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.MMCM_CLKOUT1_DIVIDE {12} CONFIG.MMCM_CLKOUT2_DIVIDE {12} CONFIG.MMCM_CLKOUT3_DIVIDE {3} CONFIG.MMCM_CLKOUT4_DIVIDE {3} CONFIG.MMCM_CLKOUT5_DIVIDE {3} CONFIG.MMCM_CLKOUT6_DIVIDE {3} CONFIG.CLKOUT1_JITTER {185.331} CONFIG.CLKOUT1_PHASE_ERROR {196.976} CONFIG.CLKOUT2_JITTER {185.331} CONFIG.CLKOUT2_PHASE_ERROR {196.976} CONFIG.CLKOUT3_JITTER {185.331} CONFIG.CLKOUT3_PHASE_ERROR {196.976} CONFIG.CLKOUT4_JITTER {144.252} CONFIG.CLKOUT4_PHASE_ERROR {196.976} CONFIG.CLKOUT5_JITTER {144.252} CONFIG.CLKOUT5_PHASE_ERROR {196.976} CONFIG.CLKOUT6_JITTER {144.252} CONFIG.CLKOUT6_PHASE_ERROR {196.976} CONFIG.CLKOUT7_JITTER {144.252} CONFIG.CLKOUT7_PHASE_ERROR {196.976}] [get_ips clk_gen]
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0A: 1186	-CLKOUT1 Register 1
+DADDR_0B: 0000	-CLKOUT1 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0C: 1186	-CLKOUT2 Register 1
+DADDR_0D: 0000	-CLKOUT2 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_0E: 1042	-CLKOUT3 Register 1
+DADDR_0F: 0080	-CLKOUT3 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_10: 1042	-CLKOUT4 Register 1
+DADDR_11: 0080	-CLKOUT4 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_06: 1042	-CLKOUT5 Register 1
+DADDR_07: 0080	-CLKOUT5 Register 2
+DADDR_08: 1186	-CLKOUT0 Register 1
+DADDR_09: 0000	-CLKOUT0 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+DADDR_12: 1042	-CLKOUT6 Register 1
+DADDR_13: 0080	-CLKOUT6 Register 2
+generate_target all [get_files  /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_gen'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_gen'...
+export_ip_user_files -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -no_script -force -quiet
+reset_run clk_gen_synth_1
+launch_run -jobs 2 clk_gen_synth_1
+[Mon Nov 26 15:38:25 2018] Launched clk_gen_synth_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+export_simulation -of_objects [get_files /home/dsmith/Desktop/transmission_test_split/project_1/project_1.srcs/sources_1/ip/clk_gen/clk_gen.xci] -directory /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files -ipstatic_source_dir /home/dsmith/Desktop/transmission_test_split/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Nov 26 15:39:20 2018] Launched clk_gen_synth_1, synth_1...
+Run output will be captured here:
+clk_gen_synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/clk_gen_synth_1/runme.log
+synth_1: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/synth_1/runme.log
+[Mon Nov 26 15:39:20 2018] Launched impl_1...
+Run output will be captured here: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A02A82A
+INFO: [Labtools 27-1435] Device xc7k325t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/dsmith/Desktop/transmission_test_split/project_1/project_1.runs/impl_1/loopback128gbps.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 6539.359 ; gain = 0.000 ; free physical = 6264 ; free virtual = 18809
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 9 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:14 ; elapsed = 00:00:36 . Memory (MB): peak = 6539.359 ; gain = 0.000 ; free physical = 6249 ; free virtual = 18795
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+WARNING: Simulation object tx32[0]__0 was not found in the design.
+WARNING: Simulation object tx8[0]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[0] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[1].MapILA"}]]
+WARNING: Simulation object tx32[1]__0 was not found in the design.
+WARNING: Simulation object tx8[1]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[1] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_6 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].Map3/MapILA"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_7 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[2].MapILA"}]]
+WARNING: Simulation object tx32[2]__0 was not found in the design.
+WARNING: Simulation object tx8[2]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[2] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_8 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].Map3/MapILA"}]]
+WARNING: Simulation object reset_delayed was not found in the design.
+WARNING: Simulation object rx32[3]__0 was not found in the design.
+WARNING: Simulation object rx8[3]__0 was not found in the design.
+WARNING: Simulation object rx_valid_s_3 was not found in the design.
+WARNING: Simulation object rxdata66_s[3] was not found in the design.
+WARNING: Simulation object tx32[3]__0 was not found in the design.
+WARNING: Simulation object tx8[3]__0 was not found in the design.
+WARNING: Simulation object tx_data_s[3] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_9 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[3].MapILA"}]]
+WARNING: Simulation object tx_data_s[3] was not found in the design.
+WARNING: Simulation object tx32[3]__0 was not found in the design.
+WARNING: Simulation object tx8[3]__0 was not found in the design.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 16:18:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 16:18:37
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 16:19:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2018-Nov-26 16:19:04
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"lane_loop[0].MapILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2018-Nov-26 16:19:07

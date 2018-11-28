@@ -1,0 +1,219 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 4405
+
+Current time: 	11/6/18 3:27:08 PM PST
+Time zone: 	Pacific Standard Time (America/Vancouver)
+
+OS: CentOS Linux release 7.5.1804 (Core) 
+Version: 3.10.0-862.3.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	dsmith
+User home directory: /home/dsmith
+User working directory: /home/dsmith/Desktop/transmission_test_split/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/dsmith/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/dsmith/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,848 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 35 MB (+34494kb) [00:00:06]
+// [Engine Memory]: 4,848 MB (+4932102kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,853 MB. GUI used memory: 22 MB. Current time: 11/6/18 3:27:10 PM PST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/dsmith/Desktop/transmission_test_split/project_1/project_1.xpr");
+// Opening Vivado Project: /home/dsmith/Desktop/transmission_test_split/project_1/project_1.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test_split/project_1/project_1.xpr 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,926 MB. GUI used memory: 22 MB. Current time: 11/6/18 3:27:30 PM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+10053kb) [00:00:33]
+// [GUI Memory]: 72 MB (+24216kb) [00:00:34]
+// [GUI Memory]: 77 MB (+1473kb) [00:00:34]
+// [GUI Memory]: 81 MB (+102kb) [00:00:34]
+// [GUI Memory]: 86 MB (+1126kb) [00:00:35]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/dsmith/Desktop/transmission_test_split/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// [Engine Memory]: 5,101 MB (+11146kb) [00:00:37]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/dsmith/Desktop/transmission_test_split/project_1; part: xc7k325tffg900-2
+// 'i' command handler elapsed time: 13 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 6066.496 ; gain = 228.180 ; free physical = 10494 ; free virtual = 21120 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, loopback_tb (loopback_tb.sv)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, loopback_tb (loopback_tb.sv)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,136 MB. GUI used memory: 57 MB. Current time: 11/6/18 3:28:15 PM PST
+// Elapsed time: 122 seconds
+selectCodeEditor("loopback_tb.sv", 195, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 383, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 134, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 237, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 132, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 91 MB (+28kb) [00:03:39]
+selectCodeEditor("loopback_tb.sv", 291, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 27, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 283, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 273, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 297, 359); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 52, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 76, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 94, 485); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 270, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 166, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 146, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 256, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectCodeEditor("loopback_tb.sv", 507, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 103 MB (+8033kb) [00:05:22]
+// Elapsed time: 54 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map2 - aurora_tx_lane128 - Behavioral (aurora_tx_lane128.vhd)]", 6); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 11); // z:k (G:JPanel, cv:JFrame)
+// Elapsed time: 88 seconds
+selectCodeEditor("loopback128gbps.vhd", 67, 341); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "probe6"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 227, 508); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 227, 508, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("loopback128gbps.vhd", 296, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 42, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 88, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 89, 357, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectCodeEditor("loopback128gbps.vhd", 250, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+// [GUI Memory]: 110 MB (+2025kb) [00:08:29]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback128gbps - Behavioral (loopback128gbps.vhd), lane_loop.Map3 - aurora_rx_lane - behavioral (aurora_rx_lane.vhd)]", 10); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("aurora_rx_lane.vhd", 496, 88); // bH:N (JPanel:JComponent, cv:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "i"); // o:ao (az:f, cv:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ila"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("aurora_rx_lane.vhd", 131, 523); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("aurora_rx_lane.vhd", 7, 425, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+selectCodeEditor("aurora_rx_lane.vhd", 312, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, loopback_tb (loopback_tb.sv)]", 24, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, loopback_tb (loopback_tb.sv)]", 24, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 29 seconds
+selectCodeEditor("loopback_tb.sv", 369, 405); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 194, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 323, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 333, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("loopback_tb.sv", 380, 168); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "loopback128gbps.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 328, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 217 seconds
+selectCodeEditor("loopback128gbps.vhd", 507, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 93, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("loopback128gbps.vhd", 198, 341); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("loopback128gbps.vhd", 332, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("loopback128gbps.vhd", 172, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("loopback128gbps.vhd", 80, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback128gbps.vhd", 80, 369, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("loopback128gbps.vhd", 337, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("loopback128gbps.vhd", 546, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "loopback_tb.sv", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 109, 98); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 493, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 388, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("loopback_tb.sv", 483, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("loopback_tb.sv", 270, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "loopback_tb.sv", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
